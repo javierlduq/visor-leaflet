@@ -1,6 +1,9 @@
 var mapa = new L.map('mi-mapa', {
     center: [-0.46761, -76.988345],
+    minZoom:8,
+    maxZoom: 20,
     zoom: 8,
+
    fullscrrenControl:true,
     fullscreenOptions:{
     position:'bottomright'
@@ -8,7 +11,8 @@ var mapa = new L.map('mi-mapa', {
 });
 var capaOSM = new L.tileLayer('http://tile.openstreetmap.org/{z}/{x}/{y}.png');
 var capaRelieve = new L.tileLayer('http://tile.stamen.com/terrain/{z}/{x}/{y}.jpg',{
-maxZoom: 10,
+
+
 });
 //var capaOrellana = new L.tileLayer('https://geo.gporellana.gob.ec/geoinfo/extern/wms');
 
@@ -21,7 +25,7 @@ layers:'demarcacion_provincia',
     format:'image/png',
     transparent:true,
     attribution:"GAD Orellana",
-    maxZoom:11,
+    maxZoom:12,
 });
 
 var estacion = L.tileLayer.wms("https://geo.gporellana.gob.ec/geoinfo/datoslibres/wms",{
