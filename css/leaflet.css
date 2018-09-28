@@ -635,19 +635,33 @@
 	}
 html, body{
   height: 100%;
-  
+<<<<<<< HEAD
+
+=======
+
+>>>>>>> 07ac55ddf105ce3c674f63ed481e9e09f6fdb3a2
 }
 #lateral{
   height: 100%;
     width: 100%;
-  
-   
+<<<<<<< HEAD
+
+
+=======
+
+
+>>>>>>> 07ac55ddf105ce3c674f63ed481e9e09f6fdb3a2
 }
 #mi-mapa {
    height: 100%;
     width: 100%;
- 
-    
+<<<<<<< HEAD
+
+
+=======
+
+
+>>>>>>> 07ac55ddf105ce3c674f63ed481e9e09f6fdb3a2
 }
 aside, article, footer, section, nav, header{
     display: block;
@@ -668,7 +682,7 @@ body{
     width: 100%;
     height: 100%;
     font-family: Verdana,Geneva,sans-serif;
-   
+
 }
 header{
     height:90px;
@@ -700,7 +714,7 @@ footer{
     clear:both;
     padding-top: 0px;
     padding-bottom: 0px;
-    
+
 }
 h1{
     text-align: center;
