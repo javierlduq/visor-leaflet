@@ -685,31 +685,33 @@ body{
 
 }
 header{
-    height:90px;
+    height:0px;
     background: #76a68b;
 }
 section{
-    height: 88%;
+    height: 100%;
     width: 100%;
 }
 article{
     height: 100%;
     background: #bcd5b0;
     float:right;
-    width: 82%;
+    width: 60%;
     float: right;
     margin: 0;
      padding: 0;
 }
 aside{
-    height:100%;
-    background: white;
-    float: left;
-    width: 18%;
-    float:left;
+	height: 100%;
+	width: 40%;
+}
+#sidebar{
+	height: 100%;
+	 width: 100%;
+	 background: white;
 }
 footer{
-    height: 30px;
+    height: 0px;
     background: #898c70;
     clear:both;
     padding-top: 0px;
